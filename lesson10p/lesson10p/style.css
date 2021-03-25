@@ -1,0 +1,90 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #343434;
+    
+}
+
+  header {
+    background: #2f3061;
+    color: #f7fff7;
+    
+  }
+  header .content-wrap p {
+    text-align: left;
+  
+  }
+h1, h2 {
+    text-align: center;
+    line-height: 1;
+}
+
+  footer{
+    background: #343434;
+    color: #f7fff7;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 25%;
+  }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+}
+nav ul li {
+    list-style-type: none;
+    line-height: 2.4em;
+    text-align: center;
+    background: rgb(29, 28, 28);
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+nav ul li:hover, nav ul li:hover> a{
+    background: #8d8d8d;
+    color: #ffffff
+}
+
+@supports (grid-area: auto) {
+
+    .site {
+        max-width: none;
+    }
+
+
+}
+@media screen and (min-width: 600px) {
+	.splash-text {
+		columns: 2;
+		column-gap: 2em;
+	}
+
+    .twin {
+        margin:inherit;
+    }
+}
+.buckets {
+	padding: 2em 1em 1em;
+	background: #526e8a;
+}
+
+.buckets ul {
+	margin: 5;
+	padding: 2;
+}
+
+.buckets li {
+	margin-bottom: 5em;
+	background: rgb(196, 193, 193);
+	list-style-type: none;
+}
+
+.bucket {
+	padding: 2.5em;
+}
